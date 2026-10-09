@@ -1,0 +1,19 @@
+{
+ "schema": "agent-recon/site/v1",
+ "tier": "public",
+ "generated": "2026-10-09T23:35:15Z",
+ "files": [
+  {
+   "path": "feed.json",
+   "sha256": "17614126e3186de4637f1c4a7cf24020bbb5008f0edb5b6cea3e317c8f6f92c0"
+  },
+  {
+   "path": "index.html",
+   "sha256": "b7486c0fa0ce66ec5afe62e80efac019155517bc4cffe62a7ce24cd9e434add0"
+  },
+  {
+   "path": "work.html",
+   "sha256": "f5c0f7f095d3d04dee9ef634dc8e15f8145f62041abd27b05c51d6dcc35563f5"
+  }
+ ]
+}

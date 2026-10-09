@@ -1,0 +1,15 @@
+{
+ "generated": "2026-10-09T23:35:15Z",
+ "tier": "public",
+ "mission_id": "PAN_2026-10-09_us6000u18k",
+ "event": {
+  "id": "us6000u18k",
+  "origin_time_utc": "2026-10-09T17:56:06Z",
+  "magnitude": 7.7,
+  "depth_km": 12.647,
+  "place": "12 km WSW of Pitaloza Arriba, Panama",
+  "pager": "red"
+ },
+ "sources": [],
+ "items": []
+}
