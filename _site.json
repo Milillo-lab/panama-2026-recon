@@ -1,19 +1,51 @@
 {
  "schema": "agent-recon/site/v1",
  "tier": "public",
- "generated": "2026-10-09T23:38:37Z",
+ "generated": "2026-10-09T23:40:31Z",
  "files": [
   {
+   "path": ".github/ISSUE_TEMPLATE/agent.yml",
+   "sha256": "7bb6b649db6ef612bc1cdc98b4f59815e43d0d7c669aaa6e6d53eab8096a960a"
+  },
+  {
+   "path": ".github/ISSUE_TEMPLATE/comment.yml",
+   "sha256": "5fe882e2ad5c6c117b48f4763b0a10027f2272c4a614ab9376b5a10d8033187d"
+  },
+  {
+   "path": ".github/ISSUE_TEMPLATE/config.yml",
+   "sha256": "c0c6951f652db55807915e0b49cc178d9294042044b57105d67cf57aa63ac886"
+  },
+  {
+   "path": ".github/ISSUE_TEMPLATE/correction.yml",
+   "sha256": "ff6d86f93011663cc7e2aedad5065b0342f2d3adb70df5e103a23be77c392b07"
+  },
+  {
+   "path": ".github/ISSUE_TEMPLATE/damage_product.yml",
+   "sha256": "df4fb0d3ca5f8acac94f02f3345f14af03612c7e2300077c5e13a3f870db138c"
+  },
+  {
+   "path": ".github/ISSUE_TEMPLATE/dataset.yml",
+   "sha256": "fc112f49825b2eb6bd6dd2faf8ce87165b2b8152fddfade8c44cdc61afff8c67"
+  },
+  {
+   "path": ".github/ISSUE_TEMPLATE/ground_data.yml",
+   "sha256": "0c4be61c25ea83f10f0ad9835eac5ffee3eda0b699538f817b443cdc6166d433"
+  },
+  {
+   "path": ".github/ISSUE_TEMPLATE/source.yml",
+   "sha256": "7f5a1ea94a5e7dfeaea378337743ee79e19facb4da7cfc418450cbf6f888c356"
+  },
+  {
    "path": "feed.json",
-   "sha256": "3b361e772f4c0ecb258839a8c935bad533523c966067d6db65fcda26d7f89169"
+   "sha256": "eeeb51682dea717be1cabae0f8903b35deda607ffad65f9a4640a1ceef4407fc"
   },
   {
    "path": "index.html",
-   "sha256": "eeec0d95f8f1b79863b29620d3b66d2e5c99275d12956452c601bd5862a75721"
+   "sha256": "90dc3f1e99560e1cb29d5ba78d7e5faa392fb2ed80c5af666e4339e1b7320492"
   },
   {
    "path": "work.html",
-   "sha256": "20a6bffb040fa1637ad58710a6d638f351a691c26d111f84fd176d9a6fafb5d8"
+   "sha256": "a913d2b3998b16427aae5a933ced56adc519ea9f6fda446f5bffa0aecb737746"
   }
  ]
 }

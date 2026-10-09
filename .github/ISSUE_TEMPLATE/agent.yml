@@ -1,0 +1,55 @@
+# Written by agent-recon (agent_recon/publish/comments.py); the deploy copies it to Milillo-lab/panama-2026-recon/.github/ISSUE_TEMPLATE/.
+name: About the software
+description: About AGENT_RECON, the software that builds the site
+labels:
+- agent
+body:
+- type: markdown
+  attributes:
+    value: |-
+      This is about the software that builds [the mission site](https://milillo-lab.github.io/panama-2026-recon/), AGENT_RECON. The team passes it on to the developers.
+
+      **Everything you write here is public.** Please leave out personal data. Nothing you write changes the site by itself: a person on the mission team reads every issue and decides. If an AI assistant helped you write this, tick the box below and name it; that is welcome, we only ask you to say so.
+- type: textarea
+  id: what_happened
+  attributes:
+    label: What happened
+    description: What the software did, or what is wrong on the site.
+  validations:
+    required: true
+- type: textarea
+  id: expected
+  attributes:
+    label: What you expected
+    description: Optional.
+  validations:
+    required: false
+- type: input
+  id: where
+  attributes:
+    label: Where (page, command or file)
+    description: Optional.
+  validations:
+    required: false
+- type: input
+  id: version
+  attributes:
+    label: Version or date
+    description: 'Optional: the version of AGENT_RECON, or when you saw it.'
+  validations:
+    required: false
+- type: checkboxes
+  id: ai_assisted
+  attributes:
+    label: AI assistance
+    description: Using an AI assistant is welcome; we only ask you to say so.
+    options:
+    - label: An AI assistant helped write this
+      required: false
+- type: input
+  id: assistant
+  attributes:
+    label: Which assistant
+    description: 'Optional: e.g. Claude, ChatGPT, Gemini, Copilot, a local model.'
+  validations:
+    required: false

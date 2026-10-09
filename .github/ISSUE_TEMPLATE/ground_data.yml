@@ -1,0 +1,132 @@
+# Written by agent-recon (agent_recon/publish/comments.py); the deploy copies it to Milillo-lab/panama-2026-recon/.github/ISSUE_TEMPLATE/.
+name: Offer ground data / Ofrecer datos de terreno
+description: Field survey grades, photos, strong-motion records, GNSS, damage inventories, drone imagery / Datos de terreno
+title: '[Ground data] '
+labels:
+- ground_data
+body:
+- type: markdown
+  attributes:
+    value: |-
+      **English.** Offer or suggest data for [the mission site](https://milillo-lab.github.io/panama-2026-recon/). Nothing you write is downloaded, run or published by itself: a person on the team checks the licence, the area it covers and the file before anything is used, and answers here. This is a research product, not for emergency use.
+
+      **Espanol.** Ofrezca o sugiera datos para [el sitio de la mision](https://milillo-lab.github.io/panama-2026-recon/). Nada de lo que escriba se descarga, ejecuta ni publica automaticamente: una persona del equipo revisa la licencia, el area y el archivo antes de usar nada, y responde aqui. Es un producto de investigacion, no para uso en emergencias.
+
+      **Everything you write here is public. / Todo lo que escriba aqui es publico.** Leave out personal data (names, faces, phone numbers, addresses). / No incluya datos personales. Do not paste passwords or private links. / No pegue contrasenas ni enlaces privados.
+- type: dropdown
+  id: g_type
+  attributes:
+    label: Kind of ground data / Tipo de dato de terreno
+    description: What kind of data it is. / Que tipo de dato es.
+    options:
+    - Field survey damage grades / Grados de dano de campo
+    - Photographs / Fotografias
+    - Strong-motion records / Registros de movimiento fuerte
+    - GNSS / GPS
+    - Damage inventory / Inventario de danos
+    - Drone imagery / Imagenes de dron
+    - Other / Otro
+  validations:
+    required: true
+- type: textarea
+  id: c_what
+  attributes:
+    label: What is it / Que es
+    description: What you offer or suggest, in a few lines. / Que ofrece o sugiere, en pocas lineas.
+  validations:
+    required: true
+- type: input
+  id: c_where
+  attributes:
+    label: Where it covers (place and bounding box W,S,E,N) / Donde cubre (lugar y caja W,S,E,N)
+    description: 'Place names and, if you can, a box in decimal degrees: west,south,east,north. / Lugares y, si puede, una caja en grados decimales.'
+    placeholder: Pereira; -75.8,4.7,-75.6,4.9
+  validations:
+    required: true
+- type: input
+  id: c_when
+  attributes:
+    label: When (survey, acquisition or valid date, YYYY-MM-DD) / Cuando (fecha, AAAA-MM-DD)
+    description: The date or the range of dates. / La fecha o el rango de fechas.
+    placeholder: 2026-08-14 to 2026-08-20
+  validations:
+    required: true
+- type: textarea
+  id: g_format
+  attributes:
+    label: Format, columns and coordinate system / Formato, columnas y sistema de coordenadas
+    description: e.g. CSV with lat, lon, damage_grade (DG0 to DG5), WGS84. / p. ej. CSV con lat, lon, damage_grade, WGS84.
+  validations:
+    required: false
+- type: input
+  id: c_licence
+  attributes:
+    label: Licence / Licencia
+    description: The licence it is under, e.g. CC-BY-4.0, CC0, ODbL; or 'unknown' or 'not open'. / La licencia, p. ej. CC-BY-4.0; o 'desconocida' o 'no abierta'.
+    placeholder: CC-BY-4.0
+  validations:
+    required: true
+- type: input
+  id: c_obtain
+  attributes:
+    label: 'How to obtain it (link, or write: I will upload) / Como obtenerlo (enlace, o escriba: Subire los datos)'
+    description: A link to the data itself, or 'I will upload'. Do not paste passwords or private links. / Un enlace a los datos, o 'Subire los datos'. No pegue contrasenas ni enlaces privados.
+    placeholder: https://
+  validations:
+    required: true
+- type: input
+  id: c_producer
+  attributes:
+    label: Producer / Productor
+    description: 'Who made it: agency, company, group or person. / Quien lo produjo.'
+  validations:
+    required: true
+- type: dropdown
+  id: g_personal
+  attributes:
+    label: Personal data in it / Datos personales
+    description: Faces, names, phone numbers or home addresses of people. / Rostros, nombres, telefonos o direcciones de personas.
+    options:
+    - No personal data / Sin datos personales
+    - Yes, I will remove it before sharing / Si, lo eliminare antes de compartir
+    - Yes, it contains some / Si, contiene algunos
+    - Not sure / No estoy seguro
+  validations:
+    required: true
+- type: textarea
+  id: c_limits
+  attributes:
+    label: Known limitations / Limitaciones conocidas
+    description: Accuracy, gaps, bias, what it does not cover. 'None known' is an answer. / Precision, vacios, sesgos, lo que no cubre.
+  validations:
+    required: true
+- type: checkboxes
+  id: c_consent
+  attributes:
+    label: Consent to publish / Consentimiento
+    description: Required. / Obligatorio.
+    options:
+    - label: I agree that the team may publish this description, and may use what I provide under the licence I state / Acepto que el equipo publique esta descripcion y use lo que aporto bajo la licencia que indico
+      required: true
+- type: input
+  id: c_contact
+  attributes:
+    label: Contact (optional) / Contacto (opcional)
+    description: 'Public: leave it empty if you prefer to be reached through this issue. / Es publico: dejelo vacio si prefiere que le respondamos aqui.'
+  validations:
+    required: false
+- type: checkboxes
+  id: ai_assisted
+  attributes:
+    label: AI assistance
+    description: Using an AI assistant is welcome; we only ask you to say so.
+    options:
+    - label: An AI assistant helped write this
+      required: false
+- type: input
+  id: assistant
+  attributes:
+    label: Which assistant
+    description: 'Optional: e.g. Claude, ChatGPT, Gemini, Copilot, a local model.'
+  validations:
+    required: false

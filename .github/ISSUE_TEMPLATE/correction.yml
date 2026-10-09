@@ -1,0 +1,58 @@
+# Written by agent-recon (agent_recon/publish/comments.py); the deploy copies it to Milillo-lab/panama-2026-recon/.github/ISSUE_TEMPLATE/.
+name: Correction
+description: A factual correction, with the source that shows it
+title: '[ITEM ID] '
+labels:
+- correction
+body:
+- type: markdown
+  attributes:
+    value: |-
+      Read [the mission site](https://milillo-lab.github.io/panama-2026-recon/) first. Put the id shown on the item's card in brackets at the start of the title, e.g. `[cems-emsr916] The number of areas is wrong`; for a whole page, `[page:NAME]`.
+
+      **Everything you write here is public.** Please leave out personal data. Nothing you write changes the site by itself: a person on the mission team reads every issue and decides. If an AI assistant helped you write this, tick the box below and name it; that is welcome, we only ask you to say so.
+- type: input
+  id: item
+  attributes:
+    label: Item id or page
+    description: The id shown on the item's card, e.g. cems-emsr916, or page:NAME for a whole page.
+    placeholder: cems-emsr916
+  validations:
+    required: true
+- type: textarea
+  id: wrong
+  attributes:
+    label: What is wrong
+    description: The statement on the site that is not right, as it reads now.
+  validations:
+    required: true
+- type: textarea
+  id: correct
+  attributes:
+    label: What is correct
+    description: What it should say.
+  validations:
+    required: true
+- type: input
+  id: source_link
+  attributes:
+    label: Source link
+    description: A link to where this can be checked.
+    placeholder: https://
+  validations:
+    required: true
+- type: checkboxes
+  id: ai_assisted
+  attributes:
+    label: AI assistance
+    description: Using an AI assistant is welcome; we only ask you to say so.
+    options:
+    - label: An AI assistant helped write this
+      required: false
+- type: input
+  id: assistant
+  attributes:
+    label: Which assistant
+    description: 'Optional: e.g. Claude, ChatGPT, Gemini, Copilot, a local model.'
+  validations:
+    required: false

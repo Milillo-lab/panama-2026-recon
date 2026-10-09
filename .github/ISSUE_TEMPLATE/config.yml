@@ -1,0 +1,9 @@
+# Written by agent-recon (agent_recon/publish/comments.py); the deploy copies it to Milillo-lab/panama-2026-recon/.github/ISSUE_TEMPLATE/.
+blank_issues_enabled: false
+contact_links:
+- name: The mission site / El sitio de la mision
+  url: https://milillo-lab.github.io/panama-2026-recon/
+  about: 'Read the items first: each card shows its id, which goes in brackets in the title of your issue. / Lea primero los items: cada tarjeta muestra su id.'
+- name: How to contribute data / Como aportar datos
+  url: https://milillo-lab.github.io/panama-2026-recon/#contribute
+  about: Research product, not for emergency use. Ground data, datasets and damage products are checked by a person before any use. / Producto de investigacion, no para uso en emergencias. Una persona revisa todo antes de usarlo.
