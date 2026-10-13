@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T05:15:10Z",
+ "generated": "2026-10-13T12:16:18Z",
  "tier": "public",
  "mission_id": "PAN_2026-10-09_us6000u18k",
  "event": {
@@ -46,6 +46,18 @@
    "name": "NASA / ASF DAAC",
    "logo": null,
    "url": "https://search.asf.alaska.edu"
+  },
+  {
+   "id": "team",
+   "name": "Mission team",
+   "logo": null,
+   "url": null
+  },
+  {
+   "id": "gdacs",
+   "name": "GDACS, Global Disaster Alert and Coordination System",
+   "logo": null,
+   "url": "https://www.gdacs.org"
   }
  ],
  "items": [
@@ -72,6 +84,81 @@
     "approved_utc": "2026-10-13T05:11:55.924787Z",
     "released_by": "Pietro Milillo",
     "released_utc": "2026-10-13T05:12:09.325767Z"
+   }
+  },
+  {
+   "id": "gaps-santiago-20261013",
+   "date": "2026-10-13",
+   "time": null,
+   "source": "team",
+   "title": "What does not exist for Santiago",
+   "summary": "No aerial orthophoto on OpenAerialMap covers this place. No strong-motion instrument within 25 km; ground motion here is modelled, not measured.",
+   "url": null,
+   "tags": [
+    "our-analysis",
+    "mission-logistics"
+   ],
+   "city": [
+    "santiago"
+   ],
+   "confidence": "confirmed",
+   "provenance": "catalogue/timeline_data.json",
+   "publication": {
+    "state": "public",
+    "approved_by": "Pietro Milillo",
+    "approved_utc": "2026-10-13T12:14:38.903057Z",
+    "released_by": "Pietro Milillo",
+    "released_utc": "2026-10-13T12:15:09.943152Z"
+   }
+  },
+  {
+   "id": "gaps-llano-bonito-20261013",
+   "date": "2026-10-13",
+   "time": null,
+   "source": "team",
+   "title": "What does not exist for Llano Bonito",
+   "summary": "No aerial orthophoto on OpenAerialMap covers this place. No delivered Copernicus EMS grading product covers this place. No strong-motion instrument within 25 km; ground motion here is modelled, not measured.",
+   "url": null,
+   "tags": [
+    "our-analysis",
+    "mission-logistics"
+   ],
+   "city": [
+    "llano_bonito"
+   ],
+   "confidence": "confirmed",
+   "provenance": "catalogue/timeline_data.json",
+   "publication": {
+    "state": "public",
+    "approved_by": "Pietro Milillo",
+    "approved_utc": "2026-10-13T12:14:37.346572Z",
+    "released_by": "Pietro Milillo",
+    "released_utc": "2026-10-13T12:15:09.505863Z"
+   }
+  },
+  {
+   "id": "gaps-son-20261013",
+   "date": "2026-10-13",
+   "time": null,
+   "source": "team",
+   "title": "What does not exist for Soná",
+   "summary": "No post-event optical or aerial acquisition under 60 % scene cloud covers this place. No aerial orthophoto on OpenAerialMap covers this place. No delivered Copernicus EMS grading product covers this place. No strong-motion instrument within 25 km; ground motion here is modelled, not measured.",
+   "url": null,
+   "tags": [
+    "our-analysis",
+    "mission-logistics"
+   ],
+   "city": [
+    "soná"
+   ],
+   "confidence": "confirmed",
+   "provenance": "catalogue/timeline_data.json",
+   "publication": {
+    "state": "public",
+    "approved_by": "Pietro Milillo",
+    "approved_utc": "2026-10-13T04:06:25.990026Z",
+    "released_by": "Pietro Milillo",
+    "released_utc": "2026-10-13T12:15:10.268887Z"
    }
   },
   {
@@ -268,6 +355,31 @@
     "approved_utc": "2026-10-13T04:31:38.922642Z",
     "released_by": "Pietro Milillo",
     "released_utc": "2026-10-13T04:48:20.136327Z"
+   }
+  },
+  {
+   "id": "gaps-santiago-20261012",
+   "date": "2026-10-12",
+   "time": null,
+   "source": "team",
+   "title": "What does not exist for Santiago",
+   "summary": "No post-event optical or aerial acquisition under 60 % scene cloud covers this place. No aerial orthophoto on OpenAerialMap covers this place. No strong-motion instrument within 25 km; ground motion here is modelled, not measured.",
+   "url": null,
+   "tags": [
+    "our-analysis",
+    "mission-logistics"
+   ],
+   "city": [
+    "santiago"
+   ],
+   "confidence": "confirmed",
+   "provenance": "catalogue/timeline_data.json",
+   "publication": {
+    "state": "public",
+    "approved_by": "Pietro Milillo",
+    "approved_utc": "2026-10-13T12:14:38.348689Z",
+    "released_by": "Pietro Milillo",
+    "released_utc": "2026-10-13T12:15:09.828132Z"
    }
   },
   {
@@ -588,6 +700,81 @@
     "approved_utc": "2026-10-13T05:11:55.865229Z",
     "released_by": "Pietro Milillo",
     "released_utc": "2026-10-13T05:12:09.264887Z"
+   }
+  },
+  {
+   "id": "gaps-santiago-20261010",
+   "date": "2026-10-10",
+   "time": null,
+   "source": "team",
+   "title": "What does not exist for Santiago",
+   "summary": "No post-event optical or aerial acquisition under 60 % scene cloud covers this place. No aerial orthophoto on OpenAerialMap covers this place. No delivered Copernicus EMS grading product covers this place. No strong-motion instrument within 25 km; ground motion here is modelled, not measured.",
+   "url": null,
+   "tags": [
+    "our-analysis",
+    "mission-logistics"
+   ],
+   "city": [
+    "santiago"
+   ],
+   "confidence": "confirmed",
+   "provenance": "catalogue/timeline_data.json",
+   "publication": {
+    "state": "public",
+    "approved_by": "Pietro Milillo",
+    "approved_utc": "2026-10-13T12:14:37.960309Z",
+    "released_by": "Pietro Milillo",
+    "released_utc": "2026-10-13T12:15:09.715159Z"
+   }
+  },
+  {
+   "id": "gaps-llano-bonito-20261010",
+   "date": "2026-10-10",
+   "time": null,
+   "source": "team",
+   "title": "What does not exist for Llano Bonito",
+   "summary": "No post-event optical or aerial acquisition under 60 % scene cloud covers this place. No aerial orthophoto on OpenAerialMap covers this place. No delivered Copernicus EMS grading product covers this place. No strong-motion instrument within 25 km; ground motion here is modelled, not measured.",
+   "url": null,
+   "tags": [
+    "our-analysis",
+    "mission-logistics"
+   ],
+   "city": [
+    "llano_bonito"
+   ],
+   "confidence": "confirmed",
+   "provenance": "catalogue/timeline_data.json",
+   "publication": {
+    "state": "public",
+    "approved_by": "Pietro Milillo",
+    "approved_utc": "2026-10-13T12:14:37.287179Z",
+    "released_by": "Pietro Milillo",
+    "released_utc": "2026-10-13T12:15:09.423137Z"
+   }
+  },
+  {
+   "id": "gaps-son-20261010",
+   "date": "2026-10-10",
+   "time": null,
+   "source": "team",
+   "title": "What does not exist for Soná",
+   "summary": "No post-event optical or aerial acquisition under 60 % scene cloud covers this place. No aerial orthophoto on OpenAerialMap covers this place. No delivered Copernicus EMS grading product covers this place. No strong-motion instrument within 25 km; ground motion here is modelled, not measured.",
+   "url": null,
+   "tags": [
+    "our-analysis",
+    "mission-logistics"
+   ],
+   "city": [
+    "soná"
+   ],
+   "confidence": "confirmed",
+   "provenance": "catalogue/timeline_data.json",
+   "publication": {
+    "state": "public",
+    "approved_by": "Pietro Milillo",
+    "approved_utc": "2026-10-13T12:14:39.086897Z",
+    "released_by": "Pietro Milillo",
+    "released_utc": "2026-10-13T12:15:10.127034Z"
    }
   },
   {
@@ -1003,6 +1190,55 @@
     "approved_utc": "2026-10-13T05:12:07.458100Z",
     "released_by": "Pietro Milillo",
     "released_utc": "2026-10-13T05:12:20.753721Z"
+   }
+  },
+  {
+   "id": "gaps-san-mart-n-de-porres-santiago-canto-del-llano-20261009",
+   "date": "2026-10-09",
+   "time": null,
+   "source": "team",
+   "title": "What does not exist for San Martín de Porres;Santiago;Canto del Llano",
+   "summary": "No post-event SAR acquisition covers this place. No co-event interferometric pair covers this place, so no coherence damage proxy can be made here yet. No post-event optical or aerial acquisition under 60 % scene cloud covers this place. No aerial orthophoto on OpenAerialMap covers this place. No delivered Copernicus EMS grading product covers this place. No strong-motion instrument within 25 km; ground motion here is modelled, not measured.",
+   "url": null,
+   "tags": [
+    "our-analysis",
+    "mission-logistics"
+   ],
+   "city": [
+    "san_martín_de_porres_santiago_canto_del_llano"
+   ],
+   "confidence": "confirmed",
+   "provenance": "catalogue/timeline_data.json",
+   "publication": {
+    "state": "public",
+    "approved_by": "Pietro Milillo",
+    "approved_utc": "2026-10-10T02:01:35.271908Z",
+    "released_by": "Pietro Milillo",
+    "released_utc": "2026-10-13T12:15:09.606265Z"
+   }
+  },
+  {
+   "id": "sitrep-gdacs-1570339",
+   "date": "2026-10-09",
+   "time": null,
+   "source": "gdacs",
+   "title": "GDACS Orange alert: Earthquake in Panama",
+   "summary": "GDACS alert level Orange for this earthquake (alert score 2). Episode alert levels, in the order GDACS lists them: Orange, Orange, Orange. Severity as GDACS gives it: Magnitude 7.7M, Depth:12.647km, source NEIC event us6000u18k.",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1570339&episodeid=1738684&eventtype=EQ",
+   "tags": [
+    "impact"
+   ],
+   "city": [
+    "region"
+   ],
+   "confidence": "confirmed",
+   "provenance": "GDACS API, event EQ 1570339, read 2026-10-09; catalogue/raw/gdacs_1570339.json",
+   "publication": {
+    "state": "public",
+    "approved_by": "Pietro Milillo",
+    "approved_utc": "2026-10-13T12:15:13.280218Z",
+    "released_by": "Pietro Milillo",
+    "released_utc": "2026-10-13T12:15:15.805235Z"
    }
   },
   {
