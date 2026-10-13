@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T05:12:38Z",
+ "generated": "2026-10-13T05:15:10Z",
  "tier": "public",
  "mission_id": "PAN_2026-10-09_us6000u18k",
  "event": {
@@ -34,6 +34,12 @@
    "name": "Humanitarian Data Exchange",
    "logo": null,
    "url": "https://data.humdata.org"
+  },
+  {
+   "id": "esa",
+   "name": "ESA Copernicus Sentinel",
+   "logo": null,
+   "url": "https://dataspace.copernicus.eu"
   },
   {
    "id": "nasa",
@@ -484,6 +490,55 @@
     "approved_utc": "2026-10-13T05:11:55.876696Z",
     "released_by": "Pietro Milillo",
     "released_utc": "2026-10-13T05:12:09.278706Z"
+   }
+  },
+  {
+   "id": "img-2026-10-10-sentinel-2",
+   "date": "2026-10-10",
+   "time": "15:45 UTC",
+   "source": "esa",
+   "title": "Sentinel-2: 1 acquisition over llano_bonito",
+   "summary": "1 Sentinel-2 acquisition on 2026-10-10 from Sentinel-2C. Access open; licence Copernicus open.",
+   "url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-2-l2a/items/S2C_MSIL2A_20261010T154551_R111_T17NNJ_20261010T201203",
+   "tags": [
+    "imagery"
+   ],
+   "city": [
+    "llano_bonito"
+   ],
+   "confidence": "confirmed",
+   "provenance": "catalogue/imagery_acquisitions_timeline.csv",
+   "publication": {
+    "state": "public",
+    "approved_by": "Pietro Milillo",
+    "approved_utc": "2026-10-13T05:14:53.795354Z",
+    "released_by": "Pietro Milillo",
+    "released_utc": "2026-10-13T05:14:55.610736Z"
+   }
+  },
+  {
+   "id": "img-2026-10-10-sentinel-1",
+   "date": "2026-10-10",
+   "time": "11:14 UTC",
+   "source": "esa",
+   "title": "Sentinel-1: 1 acquisition over santiago, soná",
+   "summary": "1 Sentinel-1 acquisition on 2026-10-10 from Sentinel-1D. Access registration; licence Copernicus open.",
+   "url": "https://datapool.asf.alaska.edu/SLC/SD/S1D_IW_SLC__1SDV_20261010T111407_20261010T111437_004952_009574_6ECA.zip",
+   "tags": [
+    "imagery"
+   ],
+   "city": [
+    "santiago",
+    "soná"
+   ],
+   "confidence": "confirmed",
+   "provenance": "catalogue/imagery_acquisitions_timeline.csv",
+   "publication": {
+    "state": "public",
+    "approved_by": "Pietro Milillo",
+    "approved_utc": "2026-10-13T05:14:50.332782Z",
+    "released_by": "Pietro Milillo",
+    "released_utc": "2026-10-13T05:14:52.161276Z"
    }
   },
   {
