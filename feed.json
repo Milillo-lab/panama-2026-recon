@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T04:33:49Z",
+ "generated": "2026-10-13T04:49:52Z",
  "tier": "public",
  "mission_id": "PAN_2026-10-09_us6000u18k",
  "event": {
@@ -10,6 +10,374 @@
   "place": "12 km WSW of Pitaloza Arriba, Panama",
   "pager": "orange"
  },
- "sources": [],
- "items": []
+ "sources": [
+  {
+   "id": "copernicus",
+   "name": "Copernicus EMS",
+   "logo": null,
+   "url": "https://mapping.emergency.copernicus.eu"
+  },
+  {
+   "id": "charter",
+   "name": "International Charter",
+   "logo": null,
+   "url": "https://disasterscharter.org"
+  },
+  {
+   "id": "hdx",
+   "name": "Humanitarian Data Exchange",
+   "logo": null,
+   "url": "https://data.humdata.org"
+  },
+  {
+   "id": "nasa",
+   "name": "NASA / ASF DAAC",
+   "logo": null,
+   "url": "https://search.asf.alaska.edu"
+  }
+ ],
+ "items": [
+  {
+   "id": "img-2026-10-12-charter",
+   "date": "2026-10-12",
+   "time": "11:06 UTC",
+   "source": "charter",
+   "title": "Charter: 1 acquisition over llano_bonito",
+   "summary": "1 Charter acquisition on 2026-10-12 from RCM-2. Access request; licence Charter, humanitarian use.",
+   "url": "https://download.disasterscharter.org/cos-api/api/file/secure/39240115/urn_ogc_def_EOP_CSA_RCM2_OK4426057_PK4428122_1_5M17_20261012_110644_HH_HV_GRD-product.zip?version=1.0&t=1791809076662",
+   "tags": [
+    "imagery"
+   ],
+   "city": [
+    "llano_bonito"
+   ],
+   "confidence": "confirmed",
+   "provenance": "catalogue/imagery_acquisitions_timeline.csv",
+   "publication": {
+    "state": "public",
+    "approved_by": "Pietro Milillo",
+    "approved_utc": "2026-10-13T04:31:54.489474Z",
+    "released_by": "Pietro Milillo",
+    "released_utc": "2026-10-13T04:48:43.182044Z"
+   }
+  },
+  {
+   "id": "img-2026-10-12-nisar",
+   "date": "2026-10-12",
+   "time": "11:04 UTC",
+   "source": "nasa",
+   "title": "NISAR: 16 acquisitions over santiago, soná",
+   "summary": "16 NISAR acquisitions on 2026-10-12 from NISAR_UR_L1 RIFG, NISAR_UR_L1 ROFF, NISAR_UR_L1 RSLC, NISAR_UR_L1 RUNW and others. 10 of them co-event interferometric products. Access registration; licence NASA open.",
+   "url": null,
+   "tags": [
+    "imagery"
+   ],
+   "city": [
+    "santiago",
+    "soná"
+   ],
+   "confidence": "confirmed",
+   "provenance": "catalogue/imagery_acquisitions_timeline.csv",
+   "publication": {
+    "state": "public",
+    "approved_by": "Pietro Milillo",
+    "approved_utc": "2026-10-13T04:46:53.491105Z",
+    "released_by": "Pietro Milillo",
+    "released_utc": "2026-10-13T04:48:55.017384Z"
+   }
+  },
+  {
+   "id": "cems-emsr934-santiago-de-veraguas-gra-v1",
+   "date": "2026-10-12",
+   "time": "01:53 UTC",
+   "source": "copernicus",
+   "title": "EMSR934 GRA product for Santiago de Veraguas, version 1",
+   "summary": "Copernicus EMS delivered a GRA product over the area of interest Santiago de Veraguas.",
+   "url": "https://rapidmapping.emergency.copernicus.eu/backend/EMSR934/AOI03/GRA_PRODUCT/EMSR934_AOI03_GRA_PRODUCT_v1.zip",
+   "tags": [
+    "damage-product"
+   ],
+   "city": [
+    "santiago"
+   ],
+   "confidence": "confirmed",
+   "provenance": "catalogue/raw/cems_EMSR934.json",
+   "publication": {
+    "state": "public",
+    "approved_by": "Pietro Milillo",
+    "approved_utc": "2026-10-13T04:31:01.332804Z",
+    "released_by": "Pietro Milillo",
+    "released_utc": "2026-10-13T04:47:13.304247Z"
+   }
+  },
+  {
+   "id": "hdx-pan-earthquake-emsr934",
+   "date": "2026-10-12",
+   "time": null,
+   "source": "hdx",
+   "title": "Panama - Earthquake in Los Santos, Panama (EMSR934)",
+   "summary": "Published on HDX by Copernicus. Licence Creative Commons Attribution International (CC BY). 4 resource(s).",
+   "url": "https://data.humdata.org/dataset/pan-earthquake-emsr934",
+   "tags": [
+    "ground-truth"
+   ],
+   "city": [
+    "region"
+   ],
+   "confidence": "confirmed",
+   "provenance": "catalogue/raw/hdx_packages.json",
+   "publication": {
+    "state": "public",
+    "approved_by": "Pietro Milillo",
+    "approved_utc": "2026-10-13T04:31:38.922642Z",
+    "released_by": "Pietro Milillo",
+    "released_utc": "2026-10-13T04:48:20.136327Z"
+   }
+  },
+  {
+   "id": "cems-emsr934-chitr-gra-not-produced",
+   "date": "2026-10-11",
+   "time": "22:32 UTC",
+   "source": "copernicus",
+   "title": "EMSR934: no GRA product for Chitré",
+   "summary": "The producer did not make this product. Reason it gives: Because of remote sensing limitations.",
+   "url": null,
+   "tags": [
+    "damage-product"
+   ],
+   "city": [
+    "llano_bonito"
+   ],
+   "confidence": "confirmed",
+   "provenance": "catalogue/raw/cems_EMSR934.json",
+   "publication": {
+    "state": "public",
+    "approved_by": "Pietro Milillo",
+    "approved_utc": "2026-10-13T04:31:01.243309Z",
+    "released_by": "Pietro Milillo",
+    "released_utc": "2026-10-13T04:47:13.055378Z"
+   }
+  },
+  {
+   "id": "cems-emsr934-las-minas-gra-not-produced",
+   "date": "2026-10-11",
+   "time": "21:08 UTC",
+   "source": "copernicus",
+   "title": "EMSR934: no GRA product for Las Minas",
+   "summary": "The producer did not make this product. Reason it gives: Because of remote sensing limitations.",
+   "url": null,
+   "tags": [
+    "damage-product"
+   ],
+   "city": [
+    "region"
+   ],
+   "confidence": "confirmed",
+   "provenance": "catalogue/raw/cems_EMSR934.json",
+   "publication": {
+    "state": "public",
+    "approved_by": "Pietro Milillo",
+    "approved_utc": "2026-10-13T04:31:01.268340Z",
+    "released_by": "Pietro Milillo",
+    "released_utc": "2026-10-13T04:47:13.079637Z"
+   }
+  },
+  {
+   "id": "img-2026-10-11-charter",
+   "date": "2026-10-11",
+   "time": "15:43 UTC",
+   "source": "charter",
+   "title": "Charter: 5 acquisitions over llano_bonito, santiago",
+   "summary": "5 Charter acquisitions on 2026-10-11 from GF1, RCM-1. Access request; licence Charter, humanitarian use.",
+   "url": null,
+   "tags": [
+    "imagery"
+   ],
+   "city": [
+    "llano_bonito",
+    "santiago"
+   ],
+   "confidence": "confirmed",
+   "provenance": "catalogue/imagery_acquisitions_timeline.csv",
+   "publication": {
+    "state": "public",
+    "approved_by": "Pietro Milillo",
+    "approved_utc": "2026-10-13T04:31:52.635834Z",
+    "released_by": "Pietro Milillo",
+    "released_utc": "2026-10-13T04:48:31.915670Z"
+   }
+  },
+  {
+   "id": "charter-1054",
+   "date": "2026-10-11",
+   "time": "08:03 UTC",
+   "source": "charter",
+   "title": "International Charter activation 1054",
+   "summary": "The Charter activated (earthquake). Its record lists 0 value-added products and 12 acquisitions.",
+   "url": "https://cgt.disasterscharter.org/en/1054",
+   "tags": [
+    "damage-product",
+    "imagery"
+   ],
+   "city": [
+    "region"
+   ],
+   "confidence": "confirmed",
+   "provenance": "catalogue/raw/charter_activation_1054.json",
+   "publication": {
+    "state": "public",
+    "approved_by": "Pietro Milillo",
+    "approved_utc": "2026-10-13T04:31:07.532421Z",
+    "released_by": "Pietro Milillo",
+    "released_utc": "2026-10-13T04:47:59.248466Z"
+   }
+  },
+  {
+   "id": "img-2026-10-10-opera",
+   "date": "2026-10-10",
+   "time": "11:14 UTC",
+   "source": "nasa",
+   "title": "OPERA: 2 acquisitions over santiago",
+   "summary": "2 OPERA acquisitions on 2026-10-10 from OPERA_L2_CSLC-S1_V1 , OPERA_L2_RTC-S1_V1 . Access registration; licence NASA open.",
+   "url": null,
+   "tags": [
+    "imagery"
+   ],
+   "city": [
+    "santiago"
+   ],
+   "confidence": "confirmed",
+   "provenance": "catalogue/imagery_acquisitions_timeline.csv",
+   "publication": {
+    "state": "public",
+    "approved_by": "Pietro Milillo",
+    "approved_utc": "2026-10-13T04:46:55.720080Z",
+    "released_by": "Pietro Milillo",
+    "released_utc": "2026-10-13T04:49:00.142838Z"
+   }
+  },
+  {
+   "id": "img-2026-10-09-nisar",
+   "date": "2026-10-09",
+   "time": "23:53 UTC",
+   "source": "nasa",
+   "title": "NISAR: 12 acquisitions over llano_bonito, santiago, soná",
+   "summary": "12 NISAR acquisitions on 2026-10-09 from NISAR_L1_RSLC_PROVISIONAL_V1 RSLC, NISAR_L2_GCOV_PROVISIONAL_V1 GCOV, NISAR_L2_GSLC_PROVISIONAL_V1 GSLC, NISAR_L2_GUNW_PROVISIONAL_V1 GUNW and others. 6 of them co-event interferometric products. Access registration; licence NASA open.",
+   "url": null,
+   "tags": [
+    "imagery"
+   ],
+   "city": [
+    "llano_bonito",
+    "santiago",
+    "soná"
+   ],
+   "confidence": "confirmed",
+   "provenance": "catalogue/imagery_acquisitions_timeline.csv",
+   "publication": {
+    "state": "public",
+    "approved_by": "Pietro Milillo",
+    "approved_utc": "2026-10-13T04:46:50.789585Z",
+    "released_by": "Pietro Milillo",
+    "released_utc": "2026-10-13T04:48:49.542986Z"
+   }
+  },
+  {
+   "id": "cems-emsr934-santiago-de-veragues-fep-not-produced",
+   "date": "2026-10-09",
+   "time": null,
+   "source": "copernicus",
+   "title": "EMSR934: no FEP product for Santiago de Veragues",
+   "summary": "The producer did not make this product. Reason it gives: .",
+   "url": null,
+   "tags": [
+    "damage-product"
+   ],
+   "city": [
+    "santiago"
+   ],
+   "confidence": "confirmed",
+   "provenance": "catalogue/raw/cems_EMSR934.json",
+   "publication": {
+    "state": "public",
+    "approved_by": "Pietro Milillo",
+    "approved_utc": "2026-10-10T02:01:35.262336Z",
+    "released_by": "Pietro Milillo",
+    "released_utc": "2026-10-13T04:47:13.325749Z"
+   }
+  },
+  {
+   "id": "cems-emsr934-macaracas-gra-not-produced",
+   "date": "2026-10-09",
+   "time": null,
+   "source": "copernicus",
+   "title": "EMSR934: no GRA product for Macaracas",
+   "summary": "The producer did not make this product. Reason it gives: .",
+   "url": null,
+   "tags": [
+    "damage-product"
+   ],
+   "city": [
+    "region"
+   ],
+   "confidence": "confirmed",
+   "provenance": "catalogue/raw/cems_EMSR934.json",
+   "publication": {
+    "state": "public",
+    "approved_by": "Pietro Milillo",
+    "approved_utc": "2026-10-10T02:01:35.259003Z",
+    "released_by": "Pietro Milillo",
+    "released_utc": "2026-10-13T04:47:13.150005Z"
+   }
+  },
+  {
+   "id": "cems-emsr934-panama-central-grm-not-produced",
+   "date": "2026-10-09",
+   "time": null,
+   "source": "copernicus",
+   "title": "EMSR934: no GRM product for Panama Central",
+   "summary": "The producer did not make this product. Reason it gives: .",
+   "url": null,
+   "tags": [
+    "damage-product"
+   ],
+   "city": [
+    "santiago",
+    "llano_bonito"
+   ],
+   "confidence": "confirmed",
+   "provenance": "catalogue/raw/cems_EMSR934.json",
+   "publication": {
+    "state": "public",
+    "approved_by": "Pietro Milillo",
+    "approved_utc": "2026-10-13T04:31:01.301693Z",
+    "released_by": "Pietro Milillo",
+    "released_utc": "2026-10-13T04:47:13.214476Z"
+   }
+  },
+  {
+   "id": "cems-emsr934-santiago-de-veragues-gra-not-produced",
+   "date": "2026-10-09",
+   "time": null,
+   "source": "copernicus",
+   "title": "EMSR934: no GRA product for Santiago de Veragues",
+   "summary": "The producer did not make this product. Reason it gives: .",
+   "url": null,
+   "tags": [
+    "damage-product"
+   ],
+   "city": [
+    "santiago"
+   ],
+   "confidence": "confirmed",
+   "provenance": "catalogue/raw/cems_EMSR934.json",
+   "publication": {
+    "state": "public",
+    "approved_by": "Pietro Milillo",
+    "approved_utc": "2026-10-13T04:31:01.367334Z",
+    "released_by": "Pietro Milillo",
+    "released_utc": "2026-10-13T04:47:13.362051Z"
+   }
+  }
+ ]
 }
